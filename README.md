@@ -192,18 +192,9 @@ iris-dashboard/
 - **Semantic HTML**: Proper heading hierarchy and landmarks
 - **Color Contrast**: WCAG AA compliant color combinations
 
-## 🔮 Future Enhancements
-
-- **Data Integration**: Connect to real student data APIs
-- **Authentication**: User login and session management
-- **Real-time Updates**: WebSocket integration for live data
-- **Offline Support**: Service worker for offline functionality
-- **PWA Features**: Installable web app capabilities
-
-## 📞 Support
-
-For questions or issues related to this dashboard implementation, please refer to the IRIS documentation or contact the development team.
 
 ---
 
-**Built with ❤️ for IRIS@NITK Surathkal 2025**
+Juee Mahajan
+241ME227
+
