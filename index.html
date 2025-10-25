@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IRIS Dashboard - NITK Surathkal 2025</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Header Section -->
+    <header class="header">
+        <div class="header-content">
+            <div class="logo-section">
+                <div class="iris-logo">
+                    <span class="iris-text">I R I S</span>
+                </div>
+            </div>
+            
+            <div class="header-title">
+                <h1>Dashboard-Home/3rd Semester</h1>
+            </div>
+            
+            <div class="header-actions">
+                <!-- Removed login and deadlines buttons from header -->
+            </div>
+        </div>
+        
+        <!-- Navigation Menu -->
+        <nav class="main-nav">
+            <div class="nav-items">
+                <div class="nav-dropdown">
+                    <a href="#" class="nav-item">academics <span class="dropdown-arrow">▼</span></a>
+                    <div class="dropdown-menu">
+                        <a href="#" class="dropdown-item">Course Catalog</a>
+                        <a href="#" class="dropdown-item">Academic Calendar</a>
+                        <a href="#" class="dropdown-item">Grades & Transcripts</a>
+                        <a href="#" class="dropdown-item">Academic Policies</a>
+                    </div>
+                </div>
+                <div class="nav-dropdown">
+                    <a href="#" class="nav-item">campus <span class="dropdown-arrow">▼</span></a>
+                    <div class="dropdown-menu">
+                        <a href="#" class="dropdown-item">Campus Map</a>
+                        <a href="#" class="dropdown-item">Facilities</a>
+                        <a href="#" class="dropdown-item">Events</a>
+                        <a href="#" class="dropdown-item">Campus Life</a>
+                    </div>
+                </div>
+                <div class="nav-dropdown">
+                    <a href="#" class="nav-item">alumni <span class="dropdown-arrow">▼</span></a>
+                    <div class="dropdown-menu">
+                        <a href="#" class="dropdown-item">Alumni Network</a>
+                        <a href="#" class="dropdown-item">Events</a>
+                        <a href="#" class="dropdown-item">Career Services</a>
+                        <a href="#" class="dropdown-item">Donations</a>
+                    </div>
+                </div>
+                <a href="#" class="nav-item nav-right">tell iris</a>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Main Content -->
+    <main class="main-content">
+        <!-- Sidebar -->
+        <aside class="sidebar">
+            <div class="sidebar-section">
+                <h3>Quick links</h3>
+                <ul class="quick-links">
+                    <li><a href="#">moodle</a></li>
+                    <li><a href="#">timetable</a></li>
+                    <li><a href="#">my courses and exam grades</a></li>
+                    <li><a href="#">mess change</a></li>
+                    <li><a href="#">fees</a></li>
+                </ul>
+            </div>
+            
+            <div class="sidebar-section">
+                <h3>module designers</h3>
+                <ul class="designers">
+                    <li>Akshay Revankar</li>
+                    <li>Govind Jeevan</li>
+                </ul>
+            </div>
+            
+            <div class="contact-info">
+                <p>officers@iris.nitk.ac.in</p>
+            </div>
+        </aside>
+
+        <!-- Dashboard Content -->
+        <div class="dashboard-content">
+            <!-- Stats Cards -->
+            <div class="stats-grid">
+                <div class="stat-card">
+                    <div class="stat-icon">
+                        <img src="images/icon-3.png" alt="Icon">
+                    </div>
+                    <div class="stat-info">
+                        <div class="stat-number">8</div>
+                        <div class="stat-label">server 6#N1</div>
+                    </div>
+                </div>
+                
+                <div class="stat-card">
+                    <div class="stat-icon">
+                        <img src="images/icon-1.png" alt="Icon">
+                    </div>
+                    <div class="stat-info">
+                        <div class="stat-number">44</div>
+                        <div class="stat-label">major credits</div>
+                    </div>
+                </div>
+                
+                <div class="stat-card">
+                    <div class="stat-icon">
+                        <img src="images/icon-2.png" alt="Icon">
+                    </div>
+                    <div class="stat-info">
+                        <div class="stat-number">8.89</div>
+                        <div class="stat-label">major cgpa</div>
+                    </div>
+                </div>
+                
+                <div class="stat-card">
+                    <div class="stat-icon">
+                        <img src="images/icon-3.png" alt="Icon">
+                    </div>
+                    <div class="stat-info">
+                        <div class="stat-number">9.02</div>
+                        <div class="stat-label">minor cgpa</div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Attendance and Timetable Section -->
+            <div class="attendance-timetable-section">
+                <div class="section-tabs">
+                    <button class="tab-button active" data-tab="attendance">attendance</button>
+                    <button class="tab-button" data-tab="timetable">timetable</button>
+                </div>
+                
+                <div class="tab-content active" id="attendance">
+                    <div class="course-cards">
+                        <div class="course-card">
+                            <div class="course-header">
+                                <h3>ME202-Fluid mechanics and machinery</h3>
+                            </div>
+                            <div class="course-progress">
+                                <div class="progress-bar">
+                                    <div class="progress-fill" style="width: 81%"></div>
+                                </div>
+                                <span class="progress-text">81%</span>
+                            </div>
+                            <p class="leave-info">You have 3 leaves left</p>
+                        </div>
+                        
+                        <div class="course-card">
+                            <div class="course-header">
+                                <h3>ME201-Basic Engineering Thermodynamics</h3>
+                            </div>
+                            <div class="course-progress">
+                                <div class="progress-bar">
+                                    <div class="progress-fill" style="width: 81%"></div>
+                                </div>
+                                <span class="progress-text">81%</span>
+                            </div>
+                            <p class="leave-info">You have 3 leaves left</p>
+                        </div>
+                        
+                        <div class="course-card">
+                            <div class="course-header">
+                                <h3>ME203-Mechanics of Machinery</h3>
+                            </div>
+                            <div class="course-progress">
+                                <div class="progress-bar">
+                                    <div class="progress-fill" style="width: 86%"></div>
+                                </div>
+                                <span class="progress-text">86%</span>
+                            </div>
+                            <p class="leave-info">You have 5 leaves left</p>
+                        </div>
+                        
+                        <div class="course-card">
+                            <div class="course-header">
+                                <h3>ME204-Basic Manufacturing Process</h3>
+                            </div>
+                            <div class="course-progress">
+                                <div class="progress-bar">
+                                    <div class="progress-fill" style="width: 75%"></div>
+                                </div>
+                                <span class="progress-text">75%</span>
+                            </div>
+                            <p class="leave-info">You have 0 leaves left</p>
+                        </div>
+                        
+                        <div class="course-card">
+                            <div class="course-header">
+                                <h3>ME205-Workshop Practice</h3>
+                            </div>
+                            <div class="course-progress">
+                                <div class="progress-bar">
+                                    <div class="progress-fill" style="width: 100%"></div>
+                                </div>
+                                <span class="progress-text">100%</span>
+                            </div>
+                            <p class="leave-info">You have 5 leaves left</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="tab-content" id="timetable">
+                    <div class="timetable-content">
+                        <p>Timetable content would be displayed here</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Moodle Login Button -->
+            <div class="moodle-login-section">
+                <button class="moodle-login-btn">Moodle Login</button>
+            </div>
+
+            <!-- Deadlines Section -->
+            <div class="deadlines-section">
+                <h2>Deadlines</h2>
+                <div class="deadline-item">
+                    <div class="deadline-icon">
+                        <img src="images/deadline-icon.png" alt="Deadline">
+                    </div>
+                    <div class="deadline-content">
+                        <h3>Assignment-6 ME202</h3>
+                        <p>due on wednesday 29 october, 12:00 am</p>
+                    </div>
+                </div>
+                <div class="deadline-item">
+                    <div class="deadline-icon">
+                        <img src="images/deadline-icon.png" alt="Deadline">
+                    </div>
+                    <div class="deadline-content">
+                        <h3>Assignment-2 ME203</h3>
+                        <p>due on friday 31 october, 11.59pm</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Right Sidebar -->
+        <aside class="right-sidebar">
+            <div class="announcements-section">
+                <h3>announcements</h3>
+                <div class="announcement-item">
+                    <p>kind attention-mega mess members</p>
+                </div>
+                <div class="announcement-item">
+                    <p>safe,secure and serene campus policy</p>
+                </div>
+            </div>
+            
+            <div class="feedback-section">
+                <h3>feedback forms</h3>
+                <div class="feedback-item">
+                    <p>mess feedback form</p>
+                </div>
+                <div class="feedback-item">
+                    <p>faculty feedback form</p>
+                </div>
+            </div>
+        </aside>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer-content">
+            <p>IRIS@NITK Surathkal 2025</p>
+            <p>Terms of service</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
